@@ -1,0 +1,43 @@
+li a {
+    color: rgb(101, 8, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-decoration: none;
+    
+    
+}
+li a:hover {
+    color: rgb(8, 145, 101);
+}
+
+body {
+    background-color: #fdd6c7;
+    
+}
+h1 {
+    margin-left: 37%;
+    color: rgb(231, 88, 5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+h3 {
+    color: rgb(5, 231, 137);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-left: 25%;
+}
+ul {
+    list-style: none;
+    margin-left: 25%;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 0.5em;
+    margin-left: -1em;
+    font-size: 300%;
+    
+  }

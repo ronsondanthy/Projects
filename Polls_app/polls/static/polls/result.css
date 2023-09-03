@@ -1,0 +1,64 @@
+li  {
+    color: rgb(101, 8, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-decoration: none;
+    
+    
+}
+li a:hover {
+    color: rgb(8, 145, 101);
+}
+
+body {
+    background-color: #dafce0;
+    
+}
+h1 {
+    margin-left: 25%;
+    color: rgb(231, 88, 5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+h3, a {
+    color: rgb(5, 231, 137);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-left: 25%;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin-left: 25%;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 0.5em;
+    margin-left: -1em;
+    font-size: 200%;
+    
+  }
+  input[type=submit] {
+    font-size: 100%;
+    background-color: #09e709;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+  }
+  label{
+    font-size: 100%;
+    padding: 20px;
+    color: rgb(230, 11, 84);
+    font-weight: bold;
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+    
